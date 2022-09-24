@@ -5,7 +5,25 @@
     <title>Contacts</title>
   </head>
   <body>
+    <p>phone:</p>
     <p>e-mail:nastyaloshkareva@gmail.com</p>
-    
+    <hr>
+    <form action="mailto:nastyaloshkareva@gmail.com" method="post">
+      <label for="YourName">Enter your name</label>
+      <input type="text" name="YourName" value="">
+      <p>
+        <label for="YourEmail">Enter your e-mail</label>
+        <input type="email" name="YourEmail" value="">
+      </p>
+      <p>
+        <label for="YourMessage">Enter your message:</label>
+        <p>
+          <textarea name="YourMessage" rows="10" cols="30"></textarea>
+        </p>
+      </p>
+      <p>
+        <input type="submit" name="" value="Send">
+      </p>
+    </form>
   </body>
 </html>
